@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    background: #000000;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.nav_top_text {
+    color: #000;
+    height: 37px;
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    background: var(--s-gradient-2, linear-gradient(229deg, #0047FF 0%, #00BCD4 100%));
+}
+
+nav {
+    height: 67px;
+}
+
+header > nav > .navigation > a, .nav_top_text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27.3px;
+    text-align: center;
+}
+
+header > nav > .navigation > a {
+    color: #848895;
+    font-family: "Helvetica", sans-serif;
+}
+
+.navigation {
+    display: flex;
+    width: 467px;
+    justify-content: space-between;
+}
+
+nav {
+    height: 67px;
+    background: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    height: 664px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content > h1, .content > h2, .content > p, .client > p, h3, h4, h5, h6,
+#per_second, #tnet_carbon, #validator_nodes, #total_transaction, .nav_build > button,
+#active_accounts, #NFTs_minted, #average_cost, .build_two, li {
+    color: #FFF;
+    font-family: "Helvetica",sans-serif;
+    font-weight: 400;
+}
+
+.content > h1 {
+    font-size: 70px;
+    letter-spacing: 0.68px;
+    line-height: 75.6px;
+    text-align: center;
+}
+
+.content > h2 {
+    font-size: 68px;
+    letter-spacing: 0.68px;
+    line-height: 75.6px;
+    text-align: center;
+}
+
+.content > p {
+    width: 589px;
+    margin-top: 50px;
+    font-size: 21px;
+    line-height: 27.3px;
+    text-align: center;
+
+}
+
+.bar_button {
+    margin-top: 48px;
+}
+
+.bar_button > button {
+    border-radius: 36px;
+    border: 1px solid #FFF;
+    background: #000;
+    width: 146px;
+    height: 52px;
+    margin-left: 15px;
+
+}
+
+.bar_button > button > a, .button_two > a {
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bar_button > button:hover, .button_two:hover {
+    background: var(--s-button, linear-gradient(152deg, #8C01FA 0%, #000 100%));
+}
+
+.client > p {
+    color: #618ADC;
+    font-size: 15px;
+    line-height: 16.8px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.client > div {
+    width: 1066px;
+    height: 38px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 32.59px;
+}
+
+section.client {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.community {
+    margin-top: 124.59px;
+}
+
+.left_side, .right_side {
+    width: 570px;
+    height: 573px;
+
+}
+
+.left_side > h4 {
+    letter-spacing: 1px;
+    font-size: 38px;
+    text-align: left;
+    margin: 77px 41px;
+}
+
+.title {
+    color: #C4C4C4;
+    font-family: 'Roboto',sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.3px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+section.section_one {
+    display: flex;
+    justify-content: center;
+}
+
+#active_accounts {
+    font-size: 101px;
+    line-height: 132px;
+    text-align: left;
+    background: linear-gradient(228deg, #19FB9B 0%, #8C01FA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#NFTs_minted {
+    font-size: 106px;
+    line-height: 132px;
+    text-align: left;
+    background: var(--s-gradient-2, linear-gradient(229deg, #0047FF 0%, #00BCD4 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#average_cost {
+    text-align: left;
+    font-size: 110px;
+    line-height: 132px;
+    background: linear-gradient(222deg, #00FFBD 0%, #025B8C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section_two {
+    height: 723px;
+    display: flex;
+    justify-content: center;
+    margin-top: 143.59px;
+}
+
+h4 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h6 {
+    font-size: 28px;
+    line-height: 33.04px;
+    margin-top: 31px;
+}
+
+.adoptation {
+    width: 340px;
+    height: 116px;
+    text-align: left;
+}
+
+.adoptation > p {
+    color: #C4C4C4;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.content_box_main {
+    width: 760px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.content_box {
+    color: #C4C4C4;
+    font-family: "Helvetica",sans-serif;;
+    font-size: 17px;
+    line-height: 27.3px;
+    display: flex;
+}
+
+#per_second, #tnet_carbon, #validator_nodes, #total_transaction {
+    font-size: 28px;
+    line-height: 28px;
+    margin: 23px 0 12px;
+
+}
+
+.content_box_one, .content_box_two {
+    width: 340px;
+    height: 335px;
+}
+
+.content_box_three, .content_box_four {
+    width: 340px;
+    height: 335px;
+}
+
+.footer_text {
+    color: #C4C4C4;
+    font-family: "Roboto",sans-serif;;
+    font-size: 16px;
+    line-height: 27.3px;
+    text-transform: uppercase;
+}
+
+.content_box_right {
+    position: absolute;
+    right: -20px;
+    top: -51px;
+}
+
+.nav_build > button {
+    background: #111;
+    padding: 10px 14px 10px;
+    margin-left: 16px;
+    border-radius: 15px;
+    border: 1px solid #A962FF;
+}
+
+.nav_build > button > a {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    line-height: 27.3px;
+}
+
+h5 {
+    font-size: 39px;
+}
+
+.builds {
+    margin-top: 124.59px;
+    width: 1140px;
+}
+
+.header_build {
+    height: 48.2px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34.78px;
+}
+
+.build_two {
+    padding: 94.56px 40px 14px;
+    border-radius: 16px;
+    Width: 550px;
+    background: #111;
+}
+
+.build_one_section {
+    display: flex;
+    justify-content: center;
+}
+
+.content_build {
+    display: flex;
+    justify-content: center;
+}
+
+.build_text_one {
+    color: #FFF;
+    width: 439px;
+    font-size: 21px;
+    line-height: 27.3px;
+    margin: 14px 0 14px;
+}
+
+.footer_build {
+    margin-top: 20px;
+    border-radius: 16px;
+    background: rgba(38, 31, 38, 0.30);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.block_content_image {
+    margin-top: 125px;
+
+}
+
+.build_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1140px;
+}
+
+.button_two {
+    width: 175px;
+    height: 50px;
+    border-radius: 36px;
+    border: 1px solid #FFF;
+    font-size: 15px;
+    background: #000;
+}
+
+#solana_hacker {
+    color: #F087FF;
+    font-size: 37px;
+}
+
+#solana_breakpoint {
+    color: #FFEB3B;
+    font-size: 42px;
+    line-height: 46.2px;
+    letter-spacing: 1px;
+}
+
+#dev_build {
+    color: #19FB9B;
+    font-size: 42px;
+    line-height: 46.2px;
+    letter-spacing: 1px;
+}
+
+.solana .title, .break_point .title, .build_dev .title {
+    color: #BABABA;
+    font-size: 12px;
+    line-height: 15.36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.solana, .block_content_left img, .block_content_right img, .break_point, .build_dev, .central img {
+    width: 300px;
+    height: 200px;
+}
+
+.solana, .break_point, .build_dev {
+    background: #19161C;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.block_content {
+    display: flex;
+    gap: 20px;
+}
+
+.block_content_central {
+    display: flex;
+    gap: 20px;
+}
+
+.block_content_left, .block_content_right, .central {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.build_two_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_block {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_block h4 {
+    margin-left: -38%;
+    margin-bottom: 35px;
+}
+
+.build_two_section>h4 {
+    margin: 126px 0 32px;
+}
+
+footer {
+    margin-top: 224px;
+    background: #000508;
+    height: 383px;
+}
+
+.content_one {
+    width: 334px;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon {
+    width: 206px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 27.3px;
+    font-size: 16px;
+}
+
+footer li {
+    font-size: 15px;
+    line-height: 27.3px;
+    color: #848895;
+    margin-bottom: 11px;
+    list-style-type: none;
+}
+
+footer .content_two p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 18.72px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.content_two {
+    width: 496px;
+    height: 221px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 81px;
+}
+
+.global {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    font-size: 15px;
+}
